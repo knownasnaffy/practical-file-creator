@@ -1,5 +1,7 @@
 # Practical File Generator
 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/2cb10e76-f70b-4fcb-a997-a97e0f4aa60c" />
+
 Practical File Generator is a local tool that creates formatted, paginated PDF reports for college practical files and lab assignments. It connects Markdown written with large language model assistants, image resolution, and document compilation into a structured workflow.
 
 ## The Problem
@@ -30,6 +32,22 @@ The application operates in four stages:
 4. Containerized PDF Build: The application creates a temporary build copy, injects the correct starting page number into the document header, copies resolved assets into place, and runs Pandoc inside an isolated Podman container with the Eisvogel LaTeX template. Once built, the page count is recorded, and the generated PDF is saved to your disk.
 
 If an earlier task changes its page count, later tasks are marked as needing regeneration so your running page numbers stay accurate.
+
+<details>
+<summary><h2>Screenshots</h2></summary>
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ab1dc6af-423d-4961-9deb-c6832378f024" />
+<hr/>
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/95cea38e-2bf5-45f9-89f0-2cd6154e52fa" />
+<hr/>
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/6a013e1e-fafa-4773-8957-2143aed76296" />
+<hr/>
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/afcf3f0c-7fda-48b0-a31d-fa0f4e243ddb" />
+<hr/>
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/2cb10e76-f70b-4fcb-a997-a97e0f4aa60c" />
+<hr/>
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/943ba906-a599-4c95-8f0c-583a2c7fdb1a" />
+
+</details>
 
 ## File Organization on Disk
 

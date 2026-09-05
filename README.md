@@ -1,6 +1,6 @@
-# Practical File Generator
+<img width="1920" height="1080" alt="Cover image" src="https://github.com/user-attachments/assets/916f3982-a997-4a04-98fb-a8c580ec68ae" />
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/2cb10e76-f70b-4fcb-a997-a97e0f4aa60c" />
+# Practical File Generator
 
 Practical File Generator is a local tool that creates formatted, paginated PDF reports for college practical files and lab assignments. It connects Markdown written with large language model assistants, image resolution, and document compilation into a structured workflow.
 
